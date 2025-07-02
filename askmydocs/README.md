@@ -54,5 +54,33 @@ Designed for students, researchers, knowledge workers, and anyone working with l
 
 ---
 
-## Folder Structure
 
+---
+
+## Local Setup
+
+1. Clone the repository:
+git clone https://github.com/shruti25838/my-projects.git
+cd my-projects/askmydocs
+
+2. Install Python dependencies:
+pip install -r requirements.txt
+
+3. Install system dependencies (for OCR support):
+
+macOS:
+brew install poppler tesseract
+
+Ubuntu:
+sudo apt install poppler-utils tesseract-ocr
+
+4. Add your API keys:
+
+Either create a .env file or a .streamlit/secrets.toml file:
+
+toml
+OPENAI_API_KEY = "your-openai-key"
+SERPAPI_API_KEY = "your-serpapi-key"
+
+5. Run the app:
+streamlit run app.py

@@ -6,3 +6,4 @@ reportlab
 pypdf
 tiktoken
 pytesseract
+pillow

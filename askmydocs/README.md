@@ -56,7 +56,8 @@ Designed for students, researchers, knowledge workers, and anyone working with l
 
 ---
 
-##How to Run AskMyDocs Locally
+## How to Run AskMyDocs Locally
+
 You can follow these step-by-step instructions to set up and run AskMyDocs on your local machine.
 
 1. Clone the Repository

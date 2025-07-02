@@ -54,9 +54,6 @@ Designed for students, researchers, knowledge workers, and anyone working with l
 
 ---
 
-
----
-
 ## Local Setup
 
 1. Clone the repository:

@@ -2,7 +2,6 @@
 This project presents a comprehensive marine monitoring system implemented on an Autonomous Underwater Vehicle (AUV) designed to assess coral reef ecosystems. The system combines embedded environmental sensing and deep learning-based visual classification to autonomously evaluate reef health. It is intended for long-term reef deployments and can assist researchers and conservationists in scalable marine observation efforts.
 ![image](https://github.com/user-attachments/assets/96ed3d31-a6b2-4183-9158-1f387e98fcef)
 
---
 
 ## Overview
 The system integrates:
@@ -11,7 +10,7 @@ The system integrates:
   - Onboard SD logging and optional LoRa telemetry for remote monitoring
   - An AUV chassis to house and deploy the hardware underwater
   - This hybrid instrumentation setup enables both quantitative (sensor-driven) and qualitative (image-based) reef analysis in a single platform.
---
+
 
 ## Autonomous Underwater Vehicle (AUV)
   - The AUV is custom-designed to withstand shallow marine deployment. Its mechanical and electrical layout includes:
@@ -25,7 +24,6 @@ The system integrates:
 
 ![image](https://github.com/user-attachments/assets/8b0ef004-06f5-44e4-8712-47ebffff0388)
 
---
 
 ## Sensors and Measured Parameters
   - Temperature Sensor (DS18B20)
@@ -40,7 +38,6 @@ Each sensor is periodically sampled and saved with timestamps. The DO measuremen
 
 ![image](https://github.com/user-attachments/assets/29e59b3c-8f2a-4daf-bcdf-087c2272ddc7)
 
---
 
 ## Coral Health Classification (VGG-19)
 A deep learning model classifies coral images into categories such as healthy or bleached. The model uses:
@@ -63,7 +60,6 @@ Software Components
         - Dissolved Oxygen (mg/L)
 
   - These values are saved on the SD card and can be parsed for analysis.
---
 
 ## How to Run
 Arduino Setup

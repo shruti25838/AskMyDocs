@@ -7,3 +7,4 @@ pypdf
 tiktoken
 pytesseract
 pillow
+PyPDF2

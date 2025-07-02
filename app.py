@@ -1,5 +1,9 @@
 import os
 import streamlit as st
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.utilities import SerpAPIWrapper
+search = SerpAPIWrapper(serpapi_api_key=st.secrets["SERPAPI_API_KEY"])
+embeddings = OpenAIEmbeddings(openai_api_key=st.secrets["OPENAI_API_KEY"])
 from dotenv import load_dotenv
 from io import BytesIO
 from reportlab.lib.pagesizes import letter
@@ -11,7 +15,7 @@ from langchain.schema import SystemMessage, HumanMessage
 from langchain.tools import tool
 from langchain.agents import initialize_agent, Tool
 from langchain.agents.agent_types import AgentType
-from langchain.utilities import SerpAPIWrapper
+
 
 load_dotenv()
 

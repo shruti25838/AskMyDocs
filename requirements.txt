@@ -1,6 +1,6 @@
 streamlit
 openai
-langchain
+langchain==0.0.320
 python-dotenv
 reportlab
 pypdf

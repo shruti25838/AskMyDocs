@@ -93,12 +93,11 @@ You can follow these step-by-step instructions to set up and run AskMyDocs on yo
 6. Add Your API Keys Securely
    - To use OpenAI and SerpAPI, you must provide API keys. You can do this in one of two ways:
 
-   - reate a .env file in the askmydocs/ directory:
+   - Create a .env file in the askmydocs/ directory:
 
-      .env
-      OPENAI_API_KEY=your-openai-key
-      SERPAPI_API_KEY=your-serpapi-key
-      Option 2: Use Streamlit’s Secrets File (.streamlit/secrets.toml)
+      - OPENAI_API_KEY=your-openai-key
+      - SERPAPI_API_KEY=your-serpapi-key
+      
 
 6. Run the Streamlit App
    - Now you're ready to launch the app:

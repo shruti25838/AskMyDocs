@@ -9,7 +9,8 @@ The system integrates:
   - A trained deep learning model (VGG-19) to assess coral reef health via image classification
   - Onboard SD logging and optional LoRa telemetry for remote monitoring
   - An AUV chassis to house and deploy the hardware underwater
-  - This hybrid instrumentation setup enables both quantitative (sensor-driven) and qualitative (image-based) reef analysis in a single platform.
+
+This hybrid instrumentation setup enables both quantitative (sensor-driven) and qualitative (image-based) reef analysis in a single platform.
 
 
 ## Autonomous Underwater Vehicle (AUV)

@@ -1,0 +1,11 @@
+streamlit
+openai
+langchain==0.0.320
+python-dotenv
+reportlab
+pypdf
+tiktoken
+pytesseract
+pillow
+PyPDF2
+pdf2image
